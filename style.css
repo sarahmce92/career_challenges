@@ -5,10 +5,33 @@ body {
 .card-container {
   display: flex;
   justify-content: space-evenly;
-  margin-top: 400px;
+  margin-top: 200px;
 }
 
 .radio-card {
   border-radius: 20px;
-  background-color: white;
+  background-color: rgb(35, 35, 35);
+  color: rgba(253, 251, 251, 0.765);
+  width: 500px;
+  height: 600px;
+}
+
+.title-div {
+  background-color: rgb(253, 201, 104);
+}
+
+h5 {
+  font-weight: bold;
+  text-align: center;
+  font-size: 25px;
+  font-family: "Montserrat", sans-serif;
+}
+
+.card-text {
+  font-family: "Montserrat", sans-serif;
+}
+
+.radio-number {
+  font-family: "Montserrat", sans-serif;
+  text-align: right;
 }
