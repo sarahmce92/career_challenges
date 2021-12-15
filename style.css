@@ -13,7 +13,7 @@ body {
   background: linear-gradient(0deg, rgb(35, 35, 35) 85%, rgb(248, 182, 59) 85% 100%);
   color: rgba(253, 251, 251, 0.765);
   width: 500px;
-  height: 600px;
+  height: 640px;
 }
 
 .card-body {
@@ -82,5 +82,25 @@ h6 {
 }
 
 .cur-play {
-  margin-top: 152px;
+  margin-top: 24px;
+}
+
+.avatar-bordered {
+  width: 176px;
+  border-radius: 50%;
+  box-shadow: 0 1px 2px rgba(0,0,0,0.2);
+  border: white 1px solid;
+}
+
+.current-items {
+  display: flex;
+  justify-content: space-between;
+}
+
+.volume-icons {
+  margin-top: 64px;
+}
+
+.final-hr {
+  width: 100%
 }
