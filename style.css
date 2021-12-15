@@ -9,9 +9,8 @@ body {
 }
 
 .radio-card {
-  border-radius: 20px;
-  /* background-color: rgb(35, 35, 35); */
-  background: linear-gradient(110deg, #fdcd3b 60%, #ffed4b 60%);
+  border-radius: 40px;
+  background: linear-gradient(0deg, rgb(35, 35, 35) 85%, rgb(253, 201, 104) 85% 100%);
   color: rgba(253, 251, 251, 0.765);
   width: 500px;
   height: 600px;
