@@ -37,6 +37,7 @@ h5 {
   font-family: "Montserrat", sans-serif;
   text-align: right;
   font-size: 25px;
+  font-weight: bold;
 }
 
 .playing {
@@ -68,4 +69,14 @@ hr {
 .title-div {
   display: flex;
   justify-content: space-between;
+}
+
+.radio-info {
+  display: flex;
+  justify-content: space-between;
+}
+
+h6 {
+  margin: 16px;
+  font-weight: normal;
 }
